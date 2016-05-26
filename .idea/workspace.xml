@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ef9daec-6fdf-41ea-9a8f-2d6628bc592f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seckill/dao/SeckillDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seckill/entity/Seckill.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/seckill/entity/SuccessKilled.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="seckill1.iws" />
@@ -876,7 +872,7 @@
       <workItem from="1463930656085" duration="792000" />
       <workItem from="1463931463837" duration="2142000" />
       <workItem from="1463975929908" duration="759000" />
-      <workItem from="1464251635417" duration="3548000" />
+      <workItem from="1464251635417" duration="3591000" />
     </task>
     <task id="LOCAL-00001" summary="1111">
       <created>1463976707308</created>
@@ -906,11 +902,18 @@
       <option name="project" value="LOCAL" />
       <updated>1464254533898</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="设计实体类和DAO接口">
+      <created>1464255202191</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1464255202191</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7241000" />
+    <option name="totallyTimeSpent" value="7284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -963,7 +966,8 @@
     <MESSAGE value="编写SQL生成代码" />
     <MESSAGE value="修补SQL错误" />
     <MESSAGE value="修改目录结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改目录结构" />
+    <MESSAGE value="设计实体类和DAO接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计实体类和DAO接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
