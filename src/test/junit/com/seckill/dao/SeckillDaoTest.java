@@ -8,6 +8,10 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
 
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+
 import static org.junit.Assert.*;
 
 /**
@@ -24,7 +28,7 @@ public class SeckillDaoTest {
 
     @Test
     public void queryById() throws Exception {
-        int id = 1000;
+        long id = 1000;
         Seckill seckill = seckillDao.queryById(id);
         System.out.println(seckill);
         System.out.println(seckill.getName());
@@ -32,12 +36,20 @@ public class SeckillDaoTest {
 
     @Test
     public void queryAll() throws Exception {
-
+        List<Seckill> seckills = seckillDao.queryAll(0, 10);
+        for (Seckill seckill : seckills){
+            System.out.println(seckill.toString());
+        }
     }
 
     @Test
     public void reduceNumber() throws Exception {
 
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(2016,6,1);
+        Date date = calendar.getTime();
 
+        int result = seckillDao.reduceNumber(1000,date);
+        System.out.println(result);
     }
 }

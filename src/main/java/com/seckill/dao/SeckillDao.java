@@ -25,5 +25,5 @@ public interface SeckillDao {
     /**
      * 根据偏移量查找商品列表
      */
-    List<Seckill> queryAll(@Param("offet")int offet,@Param("limit")int limit);
+    List<Seckill> queryAll(@Param("offset")int offset,@Param("limit")int limit);
 }

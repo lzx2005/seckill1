@@ -9,7 +9,7 @@ public class SuccessKilled {
     private long seckillId;
     private long phone;
     private short state;
-    private Date create_time;
+    private Date createTime;
 
     private Seckill seckill;
 
@@ -39,12 +39,12 @@ public class SuccessKilled {
         this.state = state;
     }
 
-    public Date getCreate_time() {
-        return create_time;
+    public Date getCreateTime() {
+        return createTime;
     }
 
-    public void setCreate_time(Date create_time) {
-        this.create_time = create_time;
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
     }
 
     public Seckill getSeckill() {
@@ -61,7 +61,7 @@ public class SuccessKilled {
                 "seckillId=" + seckillId +
                 ", phone=" + phone +
                 ", state=" + state +
-                ", create_time=" + create_time +
+                ", createTime=" + createTime +
                 ", seckill=" + seckill +
                 '}';
     }
