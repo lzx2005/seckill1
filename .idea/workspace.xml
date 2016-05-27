@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ef9daec-6fdf-41ea-9a8f-2d6628bc592f" name="Default" comment="配置Mybatis，整合Spring">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/junit/com/seckill/dao/SeckillDaoTest.java" />
+    <list default="true" id="7ef9daec-6fdf-41ea-9a8f-2d6628bc592f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
     </list>
     <ignored path="seckill1.iws" />
@@ -21,6 +18,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/seckill1$SeckillDaoTest_queryById.coverage" NAME="SeckillDaoTest.queryById Coverage Results" MODIFIED="1464341373822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.seckill.dao.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -72,8 +74,8 @@
       <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="290">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -107,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-dao.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="spring-dao.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="48" />
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding>
                 <element signature="e#705#716#0" expanded="true" />
                 <element signature="e#758#766#0" expanded="true" />
@@ -122,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="80" />
+            <state relative-caret-position="87">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -190,8 +192,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/seckill/dao/SeckillDao.java" />
         <option value="$PROJECT_DIR$/src/test/junit/com/seckill/dao/SeckillDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
       </list>
     </option>
   </component>
@@ -992,7 +994,7 @@
       <workItem from="1464251635417" duration="3591000" />
       <workItem from="1464275152298" duration="21000" />
       <workItem from="1464275189259" duration="1012000" />
-      <workItem from="1464336336460" duration="4938000" />
+      <workItem from="1464336336460" duration="5187000" />
     </task>
     <task id="LOCAL-00001" summary="1111">
       <created>1463976707308</created>
@@ -1057,19 +1059,17 @@
       <option name="project" value="LOCAL" />
       <updated>1464339893229</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="编写junit测试类">
+      <created>1464341323103</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1464341323103</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeckillDaoTest_queryById - 2016.05.27 at 17h 19m 26s.xml">
-      <configuration name="SeckillDaoTest.queryById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeckillDaoTest_queryById - 2016.05.27 at 17h 20m 15s.xml">
-      <configuration name="SeckillDaoTest.queryById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeckillDaoTest_queryById - 2016.05.27 at 17h 20m 44s.xml">
-      <configuration name="SeckillDaoTest.queryById" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SeckillDaoTest_queryById - 2016.05.27 at 17h 21m 20s.xml">
       <configuration name="SeckillDaoTest.queryById" configurationId="JUnit" />
     </history-entry>
@@ -1091,9 +1091,18 @@
     <history-entry file="SeckillDaoTest_queryById - 2016.05.27 at 17h 27m 41s.xml">
       <configuration name="SeckillDaoTest.queryById" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SeckillDaoTest_queryById - 2016.05.27 at 17h 29m 52s.xml">
+      <configuration name="SeckillDaoTest.queryById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeckillDaoTest_queryById - 2016.05.27 at 17h 31m 04s.xml">
+      <configuration name="SeckillDaoTest.queryById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeckillDaoTest_queryById - 2016.05.27 at 17h 32m 11s.xml">
+      <configuration name="SeckillDaoTest.queryById" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13255000" />
+    <option name="totallyTimeSpent" value="13504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1108,19 +1117,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1150,7 +1160,8 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/lzx2005/seckill1&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;" />
     <MESSAGE value="整合Mybatis，配置Mybatis" />
     <MESSAGE value="配置Mybatis，整合Spring" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置Mybatis，整合Spring" />
+    <MESSAGE value="编写junit测试类" />
+    <option name="LAST_COMMIT_MESSAGE" value="编写junit测试类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1465,20 +1476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SeckillDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <marker date="1464337977839" expanded="true" signature="211:362" placeholder="UPDATE `seck... " />
-            <marker date="1464337977839" expanded="true" signature="211:363" placeholder="UPDATE `seck... " />
-            <marker date="1464337977839" expanded="true" signature="211:468" placeholder="UPDATE `seck... " />
-            <marker date="1464337977839" expanded="true" signature="560:661" placeholder="SELECT * FRO... seckill" />
-            <marker date="1464337977839" expanded="true" signature="752:870" placeholder="SELECT * FRO... seckill" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/seckill/entity/SuccessKilled.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
@@ -1493,16 +1490,6 @@
           <caret line="20" column="55" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SuccessKilledDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <marker date="1464338401418" expanded="true" signature="413:924" placeholder="SELECT sk.se... success_killed" />
           </folding>
         </state>
       </provider>
@@ -1525,27 +1512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="48" />
-          <folding>
-            <element signature="e#705#716#0" expanded="true" />
-            <element signature="e#758#766#0" expanded="true" />
-            <element signature="e#805#818#0" expanded="true" />
-            <element signature="e#861#874#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/junit/com/seckill/dao/SeckillDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -1554,11 +1520,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SeckillDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <marker date="1464337977839" expanded="true" signature="211:362" placeholder="UPDATE `seck... " />
+            <marker date="1464337977839" expanded="true" signature="211:363" placeholder="UPDATE `seck... " />
+            <marker date="1464337977839" expanded="true" signature="211:468" placeholder="UPDATE `seck... " />
+            <marker date="1464337977839" expanded="true" signature="560:661" placeholder="SELECT * FRO... seckill" />
+            <marker date="1464337977839" expanded="true" signature="752:870" placeholder="SELECT * FRO... seckill" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SuccessKilledDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <marker date="1464338401418" expanded="true" signature="413:924" placeholder="SELECT sk.se... success_killed" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="80" />
+        <state relative-caret-position="87">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="e#705#716#0" expanded="true" />
+            <element signature="e#758#766#0" expanded="true" />
+            <element signature="e#805#818#0" expanded="true" />
+            <element signature="e#861#874#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
