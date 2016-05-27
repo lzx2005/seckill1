@@ -1,6 +1,7 @@
 package com.seckill.dao;
 
 import com.seckill.entity.SuccessKilled;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.Date;
 import java.util.List;
@@ -12,7 +13,7 @@ public interface SuccessKilledDao {
     /**
      * 插入一条记录
      * */
-    int insertRecord(long seckillId, long phone);
+    int insertRecord(@Param("seckillId")long seckillId,@Param("phone")long phone);
 
     /**
      * 查询记录
