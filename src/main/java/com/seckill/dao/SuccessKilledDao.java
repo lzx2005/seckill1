@@ -18,5 +18,5 @@ public interface SuccessKilledDao {
     /**
      * 查询记录
      */
-    List<SuccessKilled> queryBySeckillId(long seckillId);
+    SuccessKilled queryBySeckillId(@Param("seckillId")long seckillId,@Param("phone")long phone);
 }

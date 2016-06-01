@@ -31,11 +31,8 @@ public class SuccessKilledDaoTest {
 
     @Test
     public void queryBySeckillId() throws Exception {
-        List<SuccessKilled> successKilleds = successKilledDao.queryBySeckillId(1000L);
-        System.out.println(successKilleds.size());
-        for (SuccessKilled successKilled : successKilleds){
-            System.out.println(successKilled);
-        }
+        SuccessKilled successKilled = successKilledDao.queryBySeckillId(1000L,13758212194L);
+        System.out.println(successKilled);
     }
 
 }
